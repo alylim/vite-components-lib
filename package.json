@@ -1,6 +1,5 @@
 {
-  "name": "vite_components_lib",
-  "private": true,
+  "name": "@alylim/vite_components_lib",
   "repository": "git@github.com:alylim/vite-components-lib.git",
   "version": "0.0.1",
   "type": "module",
