@@ -1,0 +1,32 @@
+/* Button container */
+.button {
+  display: inline-block;
+  position: relative;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Button container hover state */
+.button:hover {
+  background-color: #0069d9;
+}
+
+/* Button container active state */
+.button:active {
+  background-color: #0053ba;
+}
+
+/* Button container disabled state */
+.button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}

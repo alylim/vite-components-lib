@@ -1,0 +1,6 @@
+// typescript will throw an error if you import a component which has not yet been build
+// so src folder needs to be excluded when building the library
+{
+  "extends": "./tsconfig.json",
+  "include": ["lib"]
+}
